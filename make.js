@@ -7,7 +7,7 @@ import { writeData } from "https://js.sabae.cc/writeData.js";
 const base = "http://br.jig.jp/pc/info.html?month=";
 const list = [];
 for (let i = 2004; i <= 2022; i++) {
-  for (let j = 10; j <= 12; j++) {
+  for (let j = 1; j <= 12; j++) {
     //j = 10;
     const url = base + i + fix0(j, 2);
     //console.log(url);

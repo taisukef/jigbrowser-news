@@ -1,4 +1,4 @@
-import { fetchOrLoad } from "https://js.sabae.cc/fetchOrLoad.js";
+import { escapeURL } from "./escapeURL.js";
 import { fix0 } from "https://js.sabae.cc/fix0.js";
 
 const base = "http://br.jig.jp/pc/info.html?month=";
